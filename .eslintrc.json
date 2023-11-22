@@ -30,7 +30,8 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/react-in-jsx-scope": "off",
-    "prettier/prettier": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "import-helpers/order-imports": [
       "warn",
       {
