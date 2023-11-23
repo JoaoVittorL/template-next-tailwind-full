@@ -30,7 +30,7 @@ function Register() {
           <option value="PRODUÇÃO">PRODUÇÃO</option>
           <option value="ALMOXARIFADO">ALMOXARIFADO</option>
         </select>
-        <Button background="#0E0048" title="SOLICITAR" />
+        <Button color="green">Cadastrar</Button>
         <Link
           className="flex justify-center mt-5 font-bold text-blue-dark"
           href={'/auth/login'}

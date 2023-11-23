@@ -12,7 +12,7 @@ function Input({ icon, title, ...rest }: InputProps) {
         {title}
       </label>
       <div className="flex items-center justify-between column border border-solid border-gray px-2 h-12 my-2 rounded">
-        {/* {icon && <div>{icon}</div>} */}
+        {icon && <div>{icon}</div>}
         <input
           className="border-none h-full outline-none w-[90%] text-sm"
           {...rest}

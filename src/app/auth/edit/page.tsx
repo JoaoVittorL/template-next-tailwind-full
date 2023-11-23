@@ -16,8 +16,12 @@ function Edit() {
           <Input type="password" icon title="Nova senha" />
         </div>
         <div className="flex justify-between gap-2">
-          <Button background="#E8232F" type="submit" title="Voltar" />
-          <Button background="#32B768" type="submit" title="Alterar" />
+          <Button color="green" type="submit">
+            Voltar
+          </Button>
+          <Button color="blue" type="submit">
+            Alterar
+          </Button>
         </div>
       </form>
     </div>

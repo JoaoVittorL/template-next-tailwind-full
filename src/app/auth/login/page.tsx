@@ -1,4 +1,4 @@
-// import { FaGoogle } from "react-icons/fa";
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaUser, FaLock } from 'react-icons/fa';
@@ -22,17 +22,19 @@ function Page() {
         />
         <Input
           type="text"
-          placeholder="Digite o seu cpf..."
-          icon={FaUser}
+          placeholder="Digite o seu e-mail..."
+          icon={<FaUser />}
           title="EMAIL"
         />
         <Input
           type="password"
           placeholder="Digite sua senha..."
-          icon={FaLock}
+          icon={<FaLock />}
           title="SENHA"
         />
-        <Button background="#32B768" type="submit" title="Entrar" />
+        <Button color="green" type="submit">
+          Entrar
+        </Button>
         <div className="flex justify-center items-center gap-4 border border-gray rounded h-12 mt-2 cursor-pointer">
           <FcGoogle className="text-xl" />
           <span className="text-base">Fazer login com o Google</span>
