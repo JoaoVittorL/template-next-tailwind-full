@@ -7,11 +7,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  font-size: 62.5%;
-}
+
 html,
 body {
+  scroll-behavior: smooth;
+  overflow-y: hidden;
   padding: 0;
   margin: 0;
   font-family:
@@ -29,6 +29,21 @@ body {
   line-height: 1.6;
 }
 
+<<<<<<< HEAD:src/styles/globals.css
+=======
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+>>>>>>> 2a282489217845559370a00024538c45238c110c:src/app/globals.css
 img {
   max-width: 100%;
   display: block;

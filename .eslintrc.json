@@ -30,6 +30,10 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/react-in-jsx-scope": "off",
+<<<<<<< HEAD
+=======
+    "@typescript-eslint/no-explicit-any": "error",
+>>>>>>> 2a282489217845559370a00024538c45238c110c
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "import-helpers/order-imports": [
       "warn",
