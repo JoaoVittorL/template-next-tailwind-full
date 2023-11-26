@@ -14,15 +14,26 @@ const config: Config = {
       xl: '1440px'
     },
     colors: {
-      blue: '#1fb6ff',
-      purple: '#7e5bef',
-      pink: '#ff49db',
-      orange: '#ff7849',
-      green: '#13ce66',
-      yellow: '#ffc82c',
-      'gray-dark': '#273444',
-      gray: '#8492a6',
-      'gray-light': '#d3dce6'
+      'blue-dark-900': '#0E0048',
+      'blue-800': '#172C78',
+      'blue-700': '#0b278c',
+      'blue-600': '#13319e',
+      'green-900': '#124503',
+      'green-700': '#155508',
+      'green-600': '#197716',
+      'green-400': '#32B768',
+      'black-900': '#000000',
+      'gray-700': '#0D0D0D',
+      'gray-600': '#1A1A1A',
+      'gray-500': '#262626',
+      'gray-400': '#333333',
+      'gray-300': '#808080',
+      'gray-200': '#D9D9D9',
+      'gray-100': '#F2F2F2',
+
+      red: '#E8232F',
+      white: '#fff',
+      gray: '#CDCDCD'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
